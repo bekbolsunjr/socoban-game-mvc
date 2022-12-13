@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F640F8F828D7972F00E4B8E5 /* Viewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F640F8F728D7972F00E4B8E5 /* Viewer.swift */; };
+		F640F8FC28D7972F00E4B8E5 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F640F8FB28D7972F00E4B8E5 /* Controller.swift */; };
+		F640F90128D7973000E4B8E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F640F90028D7973000E4B8E5 /* Assets.xcassets */; };
+		F69830B828D851D300048110 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69830B728D851D300048110 /* Model.swift */; };
+		F69830BA28D8B9DD00048110 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69830B928D8B9DD00048110 /* Canvas.swift */; };
+		F69830C028DB03A800048110 /* Levels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69830BF28DB03A800048110 /* Levels.swift */; };
+		F69830C328DB521900048110 /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69830C228DB521900048110 /* Extention.swift */; };
+		F69830C928E0B9DA00048110 /* Level5.txt in Resources */ = {isa = PBXBuildFile; fileRef = F69830C728E0B9DA00048110 /* Level5.txt */; };
+		F69830CA28E0B9DA00048110 /* Level6.txt in Resources */ = {isa = PBXBuildFile; fileRef = F69830C828E0B9DA00048110 /* Level6.txt */; };
+		F69830CC28E0BA4700048110 /* LevelParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69830CB28E0BA4700048110 /* LevelParser.swift */; };
+		F69830CE28E3441500048110 /* Level4.txt in Resources */ = {isa = PBXBuildFile; fileRef = F69830CD28E3441500048110 /* Level4.txt */; };
+		F6D2A57828E4D3D500FD09FF /* superman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6D2A57728E4D3D500FD09FF /* superman.mp3 */; };
+		F6E4A9C828E473B30042B170 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E4A9C728E473B30042B170 /* ServerManager.swift */; };
+		F6E4A9CA28E473E90042B170 /* RemoteServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E4A9C928E473E90042B170 /* RemoteServerManager.swift */; };
+		F6E4A9D028E4BBEC0042B170 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E4A9CF28E4BBEC0042B170 /* Music.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F640F8F428D7972F00E4B8E5 /* Socoban Game MVC Pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Socoban Game MVC Pattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F640F8F728D7972F00E4B8E5 /* Viewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viewer.swift; sourceTree = "<group>"; };
+		F640F8FB28D7972F00E4B8E5 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		F640F90028D7973000E4B8E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F640F90528D7973000E4B8E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F69830B728D851D300048110 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F69830B928D8B9DD00048110 /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		F69830BF28DB03A800048110 /* Levels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Levels.swift; sourceTree = "<group>"; };
+		F69830C228DB521900048110 /* Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
+		F69830C728E0B9DA00048110 /* Level5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level5.txt; sourceTree = "<group>"; };
+		F69830C828E0B9DA00048110 /* Level6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level6.txt; sourceTree = "<group>"; };
+		F69830CB28E0BA4700048110 /* LevelParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelParser.swift; sourceTree = "<group>"; };
+		F69830CD28E3441500048110 /* Level4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Level4.txt; sourceTree = "<group>"; };
+		F6D2A57728E4D3D500FD09FF /* superman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = superman.mp3; sourceTree = "<group>"; };
+		F6E4A9C728E473B30042B170 /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
+		F6E4A9C928E473E90042B170 /* RemoteServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteServerManager.swift; sourceTree = "<group>"; };
+		F6E4A9CF28E4BBEC0042B170 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F640F8F128D7972F00E4B8E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F640F8EB28D7972F00E4B8E5 = {
+			isa = PBXGroup;
+			children = (
+				F640F8F628D7972F00E4B8E5 /* Socoban Game MVC Pattern */,
+				F640F8F528D7972F00E4B8E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F640F8F528D7972F00E4B8E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F640F8F428D7972F00E4B8E5 /* Socoban Game MVC Pattern.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F640F8F628D7972F00E4B8E5 /* Socoban Game MVC Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				F69830BB28DAF38E00048110 /* Model */,
+				F69830BC28DAF45000048110 /* Viewer */,
+				F69830BD28DB022C00048110 /* Controller */,
+				F69830C128DB03D400048110 /* Levels */,
+				F6E4A9CD28E4BB710042B170 /* MusicPlayer */,
+				F640F90028D7973000E4B8E5 /* Assets.xcassets */,
+				F640F90528D7973000E4B8E5 /* Info.plist */,
+				F6D2A57728E4D3D500FD09FF /* superman.mp3 */,
+			);
+			path = "Socoban Game MVC Pattern";
+			sourceTree = "<group>";
+		};
+		F69830BB28DAF38E00048110 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F69830B728D851D300048110 /* Model.swift */,
+				F69830C228DB521900048110 /* Extention.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F69830BC28DAF45000048110 /* Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				F640F8F728D7972F00E4B8E5 /* Viewer.swift */,
+				F69830B928D8B9DD00048110 /* Canvas.swift */,
+			);
+			path = Viewer;
+			sourceTree = "<group>";
+		};
+		F69830BD28DB022C00048110 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F640F8FB28D7972F00E4B8E5 /* Controller.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F69830C128DB03D400048110 /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				F6E4A9C628E465780042B170 /* ServerManager */,
+				F69830C428E0B97500048110 /* Levels in txt files */,
+				F69830BF28DB03A800048110 /* Levels.swift */,
+				F69830CB28E0BA4700048110 /* LevelParser.swift */,
+			);
+			path = Levels;
+			sourceTree = "<group>";
+		};
+		F69830C428E0B97500048110 /* Levels in txt files */ = {
+			isa = PBXGroup;
+			children = (
+				F69830CD28E3441500048110 /* Level4.txt */,
+				F69830C728E0B9DA00048110 /* Level5.txt */,
+				F69830C828E0B9DA00048110 /* Level6.txt */,
+			);
+			path = "Levels in txt files";
+			sourceTree = "<group>";
+		};
+		F6E4A9C628E465780042B170 /* ServerManager */ = {
+			isa = PBXGroup;
+			children = (
+				F6E4A9C728E473B30042B170 /* ServerManager.swift */,
+				F6E4A9C928E473E90042B170 /* RemoteServerManager.swift */,
+			);
+			path = ServerManager;
+			sourceTree = "<group>";
+		};
+		F6E4A9CD28E4BB710042B170 /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F6E4A9CF28E4BBEC0042B170 /* Music.swift */,
+			);
+			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F640F8F328D7972F00E4B8E5 /* Socoban Game MVC Pattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F640F90828D7973000E4B8E5 /* Build configuration list for PBXNativeTarget "Socoban Game MVC Pattern" */;
+			buildPhases = (
+				F640F8F028D7972F00E4B8E5 /* Sources */,
+				F640F8F128D7972F00E4B8E5 /* Frameworks */,
+				F640F8F228D7972F00E4B8E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Socoban Game MVC Pattern";
+			productName = "Socoban Game MVC Pattern";
+			productReference = F640F8F428D7972F00E4B8E5 /* Socoban Game MVC Pattern.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F640F8EC28D7972F00E4B8E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F640F8F328D7972F00E4B8E5 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = F640F8EF28D7972F00E4B8E5 /* Build configuration list for PBXProject "Socoban Game MVC Pattern" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F640F8EB28D7972F00E4B8E5;
+			productRefGroup = F640F8F528D7972F00E4B8E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F640F8F328D7972F00E4B8E5 /* Socoban Game MVC Pattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F640F8F228D7972F00E4B8E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69830CE28E3441500048110 /* Level4.txt in Resources */,
+				F6D2A57828E4D3D500FD09FF /* superman.mp3 in Resources */,
+				F69830C928E0B9DA00048110 /* Level5.txt in Resources */,
+				F69830CA28E0B9DA00048110 /* Level6.txt in Resources */,
+				F640F90128D7973000E4B8E5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F640F8F028D7972F00E4B8E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E4A9C828E473B30042B170 /* ServerManager.swift in Sources */,
+				F69830C028DB03A800048110 /* Levels.swift in Sources */,
+				F69830B828D851D300048110 /* Model.swift in Sources */,
+				F640F8FC28D7972F00E4B8E5 /* Controller.swift in Sources */,
+				F69830CC28E0BA4700048110 /* LevelParser.swift in Sources */,
+				F640F8F828D7972F00E4B8E5 /* Viewer.swift in Sources */,
+				F6E4A9CA28E473E90042B170 /* RemoteServerManager.swift in Sources */,
+				F6E4A9D028E4BBEC0042B170 /* Music.swift in Sources */,
+				F69830C328DB521900048110 /* Extention.swift in Sources */,
+				F69830BA28D8B9DD00048110 /* Canvas.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F640F90628D7973000E4B8E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F640F90728D7973000E4B8E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F640F90928D7973000E4B8E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8895SV2C63;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Socoban Game MVC Pattern/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kg.o.internlabs.Socoban-Game-MVC-Pattern";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F640F90A28D7973000E4B8E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8895SV2C63;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Socoban Game MVC Pattern/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kg.o.internlabs.Socoban-Game-MVC-Pattern";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F640F8EF28D7972F00E4B8E5 /* Build configuration list for PBXProject "Socoban Game MVC Pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F640F90628D7973000E4B8E5 /* Debug */,
+				F640F90728D7973000E4B8E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F640F90828D7973000E4B8E5 /* Build configuration list for PBXNativeTarget "Socoban Game MVC Pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F640F90928D7973000E4B8E5 /* Debug */,
+				F640F90A28D7973000E4B8E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F640F8EC28D7972F00E4B8E5 /* Project object */;
+}
